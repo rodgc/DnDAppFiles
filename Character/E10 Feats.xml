@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!--Feats Changed -->
+	<feat>
+		<name>Athlete (E10)</name>
+		<text>You have undergone extensive physical training to gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain proficiency with Athletics.</text>
+		<text />
+		<text>• When making an Athletics check, gain advantage.</text>
+		<text />
+		<text>• When you are prone, standing up uses only 5 feet of your movement.</text>
+		<text />
+		<text>• Climbing doesn't require extra movement.</text>
+		<text />
+		<text>• You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.</text>
+	</feat>
+	<feat>
+		<name>Crossbow Expert (E10)</name>
+		<text>Thanks to extensive practice with the crossbow, you gain the following benefits:</text>
+		<text />
+		<text>• Gain proficiency with all Crossbows.</text>
+		<text />
+		<text>• You ignore the loading quality of crossbows with which you are proficient.</text>
+		<text />
+		<text>• Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls made with crossbows.</text>
+		<text />
+		<text>• When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.</text>
+	</feat>
+	<feat>
+		<name>Defensive Duelist (E10)</name>
+		<prerequisite>Dexterity 13 or higher</prerequisite>
+		<text>When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.</text>
+		<text />
+		<text>• Gain the Dueling Fighting Style available to Fighters.</text>
+		<text />
+		<text>• Defensive Duelist can be used with any ability that grants additional reactions or opportunity attacks, such as Lighting Reflexes.</text>
+	</feat>
+	<feat>
+		<name>Dual Wielder (E10)</name>
+		<text>You master fighting with two weapons, gaining the following benefits:</text>
+		<text />
+		<text>• You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.</text>
+		<text />
+		<text>• You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.</text>
+	</feat>
+	<feat>
+		<name>Dungeon Delver (E10)</name>
+		<text>Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:</text>
+		<text />
+		<text>• Gain proficiency with Thieve's Tools</text>
+		<text />
+		<text>• You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.</text>
+		<text />
+		<text>• You have advantage on saving throws made to avoid or resist traps.</text>
+		<text />
+		<text>• You have resistance to the damage dealt by traps.</text>
+		<text />
+		<text>• You can search for traps while traveling at a normal pace, instead of only at a slow pace.</text>
+	</feat>
+	<feat>
+		<name>Durable (E10)</name>
+		<text>Hardy and resilient, you gain the following benefits:</text>
+		<text />
+		<text>• Increase your Constitution score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain Advantage on Death Saving Throws.</text>
+		<text />
+		<text>• When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+	<feat>
+		<name>Grappler (E10)</name>
+		<prerequisite>Strength 13 or higher</prerequisite>
+		<text>You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You have advantage on attack rolls against a creature you are grappling.</text>
+		<text />
+		<text>• You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, your speed becomes 0 and the creature is restrained until the grapple ends. When a pinned creature succeeds in escaping a grapple, they are no longer pinned, but remain grappled.</text>
+		<text />
+		<text>• Creatures that are one size larger than you don’t have advantage on checks to escape your grapple.</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+	<feat>
+		<name>Great Weapon Master (E10)</name>
+		<text>You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:</text>
+		<text />
+		<text>• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.</text>
+		<text />
+		<text>• Once per turn before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</text>
+	</feat>
+	<feat>
+		<name>Healer (E10)</name>
+		<text>You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:</text>
+		<text />
+		<text>• Increase your Wisdom score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain advantage on Wisdom(Medicine) checks.</text>
+		<text />
+		<text>• When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.</text>
+		<text />
+		<text>• As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.</text>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+	<feat>
+		<name>Heavy Armor Master (E10)</name>
+		<prerequisite>Proficiency with heavy armor</prerequisite>
+		<text>You can use your armor to deflect strikes that would kill others. You gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• When you wear heavy armor you can add 1 to your AC if you have a Dexterity of 12 or higher.</text>
+		<text />
+		<text>• While you are wearing heavy armor, as a reaction you can reduce the bludgeoning, piercing, and slashing damage from a weapon attack by 1d6 + Proficiency Modifier.</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+	<feat>
+		<name>Inspiring Leader (E10)</name>
+		<prerequisite>Charisma 13 or higher</prerequisite>
+		<text />
+		<text>• Increase your Charisma score by 1, to a maximum of 20.</text>
+		<text />
+		<text>You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+	<feat>
+		<name>Keen Mind (E10)</name>
+		<text>You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits.</text>
+		<text />
+		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You have advantage on Intelligence checks involving Knowledge and Reasoning.</text>
+		<text />
+		<text>• You have advantage on Intelligence Saving Throws.</text>
+		<text />
+		<text>• You always know which way is north.</text>
+		<text />
+		<text>• You always know the number of hours left before the next sunrise or sunset.</text>
+		<text />
+		<text>• You can accurately recall anything you have seen or heard within the past month.</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+	<feat>
+		<name>Linguist (E10)</name>
+		<text>You have studied languages and codes, gaining the following benefits:</text>
+		<text />
+		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You learn three languages of your choice.</text>
+		<text />
+		<text>• You can learn a new language by studying or being exposed to it for three days.</text>
+		<text />
+		<text>• You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+	<feat>
+		<name>Lucky (E10)</name>
+		<text>You have inexplicable luck that seems to kick in at just the right moment.</text>
+		<text />
+		<text>• You have 1 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</text>
+		<text />
+		<text>• You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</text>
+		<text />
+		<text>• If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</text>
+		<text />
+		<text>• You regain your expended luck point when you finish a short or long rest.</text>
+	</feat>
+	<feat>
+		<name>Martial Adept (E10)</name>
+		<text>You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:</text>
+		<text />
+		<text>• You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</text>
+		<text />
+		<text>• If you already have superiority dice, you gain two more; otherwise, you have two superiority dice, which are a d6. This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</text>
+	</feat>
+	<feat>
+		<name>Medium Armor Master (E10)</name>
+		<prerequisite>Proficiency with medium armor</prerequisite>
+		<text>You have practiced moving in medium armor to gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.</text>
+		<text />
+		<text>• When you wear medium armor, you can increase the maximum Dexterity Modifier allowed by the armor by 1.</text>
+	</feat>
+	<feat>
+		<name>Polearm Master (E10)</name>
+		<text>You can keep your enemies at bay with reach weapons. You gain the following benefits:</text>
+		<text />
+		<text>• When you take the Attack action and attack with only a glaive, halberd, quarterstaff, spear, or trident, you can use a bonus action to make a melee attack with the opposite end of the weapon. The weapon’s damage die for this attack is a d4, and the attack deals bludgeoning damage. You don’t add your ability modifier to the damage of the bonus attack, unless that modifier is negative. This attack cannot benefit from the Heavy weapon property.</text>
+		<text />
+		<text>• While you are wielding a glaive, halberd, pike, quarterstaff, spear, or trident, you may make an attack as a reaction on a creature when they enter your reach.</text>
+	</feat>
+	<feat>
+		<name>Savage Attacker (E10)</name>
+		<text>• Increase your Strength score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+	<feat>
+		<name>Sharpshooter (E10)</name>
+		<text>You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:</text>
+		<text />
+		<text>• Double the short range of your ranged weapon attacks.</text>
+		<text />
+		<text>• Your ranged weapon attacks ignore half cover and count three-quarters cover as half cover.</text>
+		<text />
+		<text>• Once per turn before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</text>
+	</feat>
+	<feat>
+		<name>Skilled (E10)</name>
+		<text>• Increase your Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You gain proficiency in any combination of three skills or tools of your choice.</text>
+	</feat>
+	<feat>
+		<name>Skulker (E10)</name>
+		<prerequisite>Dexterity 13 or higher</prerequisite>
+		<text>You are expert at slinking through shadows. You gain the following benefits:</text>
+		<text />
+		<text>• Increase your Dexterity score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You can try to hide when you are lightly obscured from the creature from which you are hiding.</text>
+		<text />
+		<text>• When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.</text>
+		<text />
+		<text>• Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.</text>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+	<feat>
+		<name>Spell Sniper (E10)</name>
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<text>You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:</text>
+		<text />
+		<text>• When you cast a spell that requires you to make an attack roll, the spell's range is doubled.</text>
+		<text />
+		<text>• Your ranged spell attacks ignore half cover and count three-quarters cover as half cover.</text>
+		<text />
+		<text>• You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.</text>
+	</feat>
+	<feat>
+		<name>Tough (E10)</name>
+		<text>• Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.</text>
+		<text />
+		<text>• When hit with an attack you may as a Reaction gain resistance to all damage except radiant, necrotic, and psychic damage until the end of your next turn. Once used this ability cannot be used until after you've finished a long rest.</text>
+	</feat>
+	<feat>
+		<name>Weapon Specialist (E10)</name>
+		<text>You have practiced extensively with a variety of weapons, gaining the following benefits:</text>
+		<text />
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You gain proficiency with all Simple and Martial Weapons.</text>
+	</feat>
+	<!--Feats Added -->
+	<feat>
+		<name>Close Quarters Archer (E10)</name>
+		<text>Entering a melee with your bow is of little concern, gain the following benefits:</text>
+		<text />
+		<text>• Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls nor does a target benefit from cover for being engaged in melee.</text>
+		<text />
+		<text>• When you make a ranged attack against a hostile creature within 5 feet of you, you don’t provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.</text>
+		<text />
+		<text>• When you make a ranged attack against a hostile creature within 5 feet of you, you can use a bonus action to make a melee attack with a piece of ammunition or part of your ranged weapon. This weapon has Finesse and the damage die for this attack is a d4 plus your ability modifier and deals piercing or bludgeoning damage.</text>
+	</feat>
+	<feat>
+		<name>Cunning Opportunist (E10)</name>
+		<text>You never let an opportunity pass you by, gain the following benefits:</text>
+		<text />
+		<text>• When a creature that is within 5 feet of you attacks an ally instead of you or attacks you while suffering disadvantage you can use your Reaction to make an attack against them. The attack must use a finesse or a light weapon and is made with advantage.</text>
+	</feat>
+	<feat>
+		<name>Desperate Spellcaster (E10)</name>
+		<prerequisite>The ability to cast at least one spell of 1st level or higher.</prerequisite>
+		<text>You are desperate enough to tap the weave within yourself to fuel your magics, gain the following benefits:</text>
+		<text />
+		<text>• Gain one spell slot for each spell level you are capable of casting lower than your highest level spellslot. This cannot grant spell slots of 5th level or higher.</text>
+		<text />
+		<text>• When you expend one of these spell slots, make a Constitution save equal to 10+ spell slot level, if you fail, gain one level of exhaustion.</text>
+		<text />
+		<text>• Once you expend one of these spell slots you must finish a long rest before you can use them again.</text>
+	</feat>
+	<feat>
+		<name>Dueling Master (E10)</name>
+		<text>Unparalleled in single combat, gain the following benefits:</text>
+		<text />
+		<text>• You gain a +1 bonus to AC while you wield a one handed weapon or versatile weapon and no other weapons or a shield.</text>
+		<text />
+		<text>• While you wield a one handed weapon or versatile weapon and no other weapons or a shield, you can use a bonus action to make an additional attack, the attack must be one handed if the weapon is versatile. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.</text>
+	</feat>
+	<feat>
+		<name>Expertise (E10)</name>
+		<text>You reach mastery of a skill, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Pick one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. This bonus does not stack with the Bard or Rogue abilities of the same name.</text>
+	</feat>
+	<feat>
+		<name>Fighting Style Expert (E10)</name>
+		<text>You are brutally effecient in your chosen combat style, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Dexterity or Strength score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain one Fighting Style available to Fighters.</text>
+	</feat>
+	<feat>
+		<name>Hardened (E10)</name>
+		<text>You've learned to to shake off just about everything that has come your way, gain the following benefits:</text>
+		<text />
+		<text>• Gain a bonus equal to one half your proficiency bonus(rounded up) to any save you are not proficient in.</text>
+	</feat>
+	<feat>
+		<name>Intimidating Presence (E10)</name>
+		<prerequisite>Strength 13 or higher</prerequisite>		
+		<text />
+		<text>• Increase your Strength score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You may use Strength instead of Charisma for Intimidation checks.</text>
+		<text />
+		<text>• As a bonus action, you may attempt to intimidate a creature. Make an Intimidation(Strength) check opposed by either a Strength check or an Intimidation check, if your total is greater than the target's, they are frightened until the end of their next turn. This ability can only be used to target a creature once, and any creature that can see or hear a failed Intimidating Presence attempt is immune to the effects of Intimidating Presense for 24hr.</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+	<feat>
+		<name>Intuitive Defense (E10)</name>
+		<text>You know where attacks will be and simply aren't there, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Wisdom score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain Unarmored Defense: While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</text>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+	<feat>
+		<name>Large Build (E10)</name>
+		<prerequisite>Small size. Strength 13 or higher. May only be taken at 1st level</prerequisite>		
+		<text>You are one of the largest of your kind, nearly as large as most humanoids, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength Score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</text>
+		<text />
+		<text>• You may choose to count as one size larger whenever it would be beneficial. This allows small creatures to ignore the Heavy weapon property.</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+	<feat>
+		<name>Light Armor Master (E10)</name>
+		<text>You know how to get the most out of light armors, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Dexterity score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Increase the AC granted by light armors by 1.</text>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+	<feat>
+		<name>Lightning Reflexes (E10)</name>
+		<prerequisite>Dexterity 15 or higher.</prerequisite>		
+		<text>You are preternaturally quick, gain the following benefits:</text>
+		<text />
+		<text>• Gain Advantage on Initiative Rolls</text>
+		<text />
+		<text>• Gain a second reaction each turn, this reaction can only be used for Opportunity Attacks.</text>
+	</feat>
+	<feat>
+		<name>Martial Artist (E10)</name>
+		<text>You are trained as an unarmed combatant, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Your unarmed strike uses a d4 for damage. If your unarmed strike already deals a d4 or large damage die, increase the die by one size d4 > d6 > d8 > d10 > d12.</text>
+		<text />
+		<text>• Your unarmed strike gains the Offhand propery and can be used for two-weapon fighting.</text>
+		<text />
+		<text>• When performing a Grapple or Shove you may use a Dexterity(Acrobatics) check instead of a Strength(Athletics) check.</text>
+	</feat>
+	<feat>
+		<name>Powerful Build (E10)</name>
+		<prerequisite>Medium size. Strength 15 or higher. May only be taken at 1st level.</prerequisite>		
+		<text>You are one of the largest of most impressive of your species, gian the following benefits:</text>
+		<text />
+		<text>• You count as large size when determining your carrying capacity and the weight you can push, drag, or lift.</text>
+		<text />
+		<text>• You may treat one-handed weapons as light for the purposes of two-weapon fighting.</text>
+		<text />
+		<text>• You use Versatile weapons dealing their two handed damage one handed. Verstaile weapons do not count as light weapons when wielded this way.</text>
+		<text />
+		<text>• You may choose to attack with two-handed weapons you are proficient with using only one hand, but you may only add one half your proficiency bonus(rounded up) to the attack instead of your full proficiency bonus and twohanded weapons cannot be used for two weapon fighting.</text>
+	</feat>
+	<feat>
+		<name>Powerful Persona (E10)</name>
+		<text>The sheer power of your personality protect you, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Charisma score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain Unarmored Defense: While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier.</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+	<feat>
+		<name>Shield Weapon Specialist (E10)</name>
+		<text>You fight as deftly using a shield as a weapons as most do a sword or spear, gain the following benefits:</text>
+		<text />
+		<text>• The damage die of Bladed or Spiked Buckler/Targe becomes a d6.</text>
+		<text />
+		<text>• At the start of your turn, before you move or take any actions, you must choose to fight offensively or defensively with a Bladed or Spiked Buckler/Targe, the effects last until the start of your next turn.</text>
+		<text />
+		<text>• While fighting offensively you no longer suffer disadvantage when attacking with a Bladed or Spiked Buckler/Targe.</text>
+		<text />
+		<text>• While fighting defensively the AC bonus granted by your Bladed or Spiked Buckler/Targe is increased by 1.</text>
+	</feat>
+	<feat>
+		<name>Spell Savant (E10)</name>
+		<prerequisite>The ability to cast at least one spell.</prerequisite>		
+		<text></text>
+		<text />
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a Maximum of 20.</text>
+		<text />
+		<text>• Gain an additional spell slot of the highest level available to you. If your highest level spell slot increases your Spell Savant spell slot increases to match your new highest level spell slot. This spell slot cannot be 6th level or higher. Once you cast it, you must finish a long rest before you can cast it again.</text>
+	</feat>
+	<feat>
+		<name>Spellslinger (E10)</name>
+		<prerequisite>The ability to cast at least one spell.</prerequisite>		
+		<text>Yoru spells always seem to have a little bit extra, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a Maximum of 20.</text>
+		<text />
+		<text>• You can add your Spellcasting modifier to the damage roll of any spell you cast. The damage bonus applies to one damage roll of a spell, not multiple rolls and cannot be used to increase the damage dealt to a single creature by an amount greater than your spellcasting modifier.</text>
+	</feat>
+	<feat>
+		<name>Tactician (E10)</name>
+		<text>You don't have to be the fastest or the toughest, just the smartest, gain the following benefits:</text>
+		<text />
+		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
+		<text />
+		<text>• Gain Unarmored Defense: While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+	<feat>
+		<name>Thrown Weapon Expert (E10)</name>
+		<text>You always hit your mark, gain the following benefits:</text>
+		<text />
+		<text>• Attacking at long range doesn't impose disadvantage on your thrown weapon attack rolls.</text>
+		<text />
+		<text>• Your thrown weapon attacks ignore half cover and treat three-quarters cover as half cover.</text>
+		<text />
+		<text>• You can draw weapons with the thrown property as a free action and can make as many attacks in a round as you have attacks and weapons available.</text>
+		<text />
+		<text>• As a bonus action you may draw and throw a light or finesse thrown weapon so long as you have at least one free hand.</text>
+	</feat>
+	<feat>
+		<name>Unarmored Defense (E10)</name>
+		<text></text>
+		<text />
+		<text>• While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence, Wisdom, or Charisma modifier.</text>
+	</feat>
+	<feat>
+		<name>Volatile Spellcaster (E10)</name>
+		<prerequisite>The ability to cast at least one spell.</prerequisite>		
+		<text>You push your spells to the brink of your control and sometimes past, gain the following benefits:</text>
+		<text />
+		<text>• When you cast a spell that deals damage you can choose to increase the size of the damage die by one step d4 > d6 > d8 > d10 > d12 > 2d8. Upon choosing to cast a volatile spell that is not a cantrip, roll a d20, on a roll of a 1 gain one level of exhaustion, on a roll of a 20 cast the spell at its next highest level.</text>
+	</feat>
+	<feat>
+		<name>Weapon Master (E10)</name>
+		<prerequisite>Proficiency in Simple and Martial Weapons.</prerequisite>		
+		<text>You are considered a master of your chosen weapon, gain the following benefits:</text>
+		<text />
+		<text>• Chose one type of weapon, it is your specialized weapon type.</text>
+		<text />
+		<text>• Increase the damage dealt with your specialized weapon by 1d4.</text>
+		<text />
+		<text>• Reroll any attack roll of a 1 made with your specialized weapon.</text>
+		<text />
+		<text>• When attacked by a weapon of the same weapon range and damage type, increase your AC by 1 against that attack. ie a Longsword is a Melee Slashing weapon.</text>
+	</feat>
+</compendium>
