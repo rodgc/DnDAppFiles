@@ -16,6 +16,7 @@
 		<text>• Climbing doesn't require extra movement.</text>
 		<text />
 		<text>• You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.</text>
+		<proficiency>Athletics</proficiency>
 	</feat>
 	<feat>
 		<name>Crossbow Expert (E10)</name>
@@ -334,6 +335,7 @@
 		<text>• Increase your Wisdom score by 1, to a maximum of 20.</text>
 		<text />
 		<text>• Gain Unarmored Defense: While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</text>
+		<special>Unarmored Defense Wisdom</special>
 		<modifier category="ability score">wisdom +1</modifier>
 	</feat>
 	<feat>
@@ -398,6 +400,7 @@
 		<text>• Increase your Charisma score by 1, to a maximum of 20.</text>
 		<text />
 		<text>• Gain Unarmored Defense: While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier.</text>
+		<special>Unarmored Defense Charisma</special>
 		<modifier category="ability score">charisma +1</modifier>
 	</feat>
 	<feat>
@@ -437,6 +440,7 @@
 		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
 		<text />
 		<text>• Gain Unarmored Defense: While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</text>
+		<special>Unarmored Defense Intelligence</special>
 		<modifier category="ability score">intelligence +1</modifier>
 	</feat>
 	<feat>
@@ -456,6 +460,7 @@
 		<text></text>
 		<text />
 		<text>• While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence, Wisdom, or Charisma modifier.</text>
+		<special>Unarmored Defense Intelligence, Wisdom, or Charisma</special>
 	</feat>
 	<feat>
 		<name>Volatile Spellcaster (E10)</name>
